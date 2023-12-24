@@ -16,9 +16,9 @@ const list = new ListTemplate(ul);
 form.addEventListener('submit', (e: Event) => {
   e.preventDefault();
 
-  let values : [string,string,number];
+  let values: [string, string, number];
 
-  values = [tofrom.value, details.value, amount.valueAsNumber]
+  values = [tofrom.value, details.value, amount.valueAsNumber];
 
   let doc: HasFormater;
 
@@ -28,5 +28,7 @@ form.addEventListener('submit', (e: Event) => {
     doc = new Payment(...values);
   }
   list.render(doc, type.value, 'end');
-  values = ['','', 0]
+  tofrom.value = '';
+  details.value = '';
+  amount.valueAsNumber = 0;
 });
