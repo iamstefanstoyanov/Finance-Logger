@@ -8,7 +8,7 @@ Finance Logger is a simple TypeScript project for tracking financial transaction
 ## Features
 
 - Add income and expense transactions.
-- 
+  
 ## Build With
 ![My Skills](https://skillicons.dev/icons?i=ts)
 
@@ -24,4 +24,4 @@ Finance Logger is a simple TypeScript project for tracking financial transaction
 
 3. Right click on public folder and open an integrated terminal.
 
-4. Run Live Server.
+4. Run "Live Server".
